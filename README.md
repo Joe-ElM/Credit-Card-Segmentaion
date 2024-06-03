@@ -110,9 +110,13 @@ Description: Low activity across the board. Low balances, purchases, and credit 
 
 - X-label: as value on x-axis increases --> 'more Purchases, Payments and OneOff Purchases -->
 - Y-label: as value on y-axis increases --> more prepayment and prepayment transactions -->
--          as value on y-axis decreases <-- purchases with fully paid-up payments
+- as value on y-axis decreases <-- purchases with fully paid-up payments
 
   ![Description](/Images/pca_cluster.png)
+
+## Conclusion:
+
+In conclusion, based on analysis, Group 4, consisting of 25 individuals categorized as "Premium Customers," should receive improved conditions. These customers demonstrate a high frequency of purchases and consistently meet their payment obligations. Therefore, offering enhanced terms and conditions tailored to their spending habits could further incentivize their loyalty and satisfaction.
 
 ## Project highlights
 
