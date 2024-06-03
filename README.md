@@ -36,16 +36,7 @@ A bank wants to refine the credit card terms and conditions for its customers. T
 
 ## Process
 
-### 1. Project's Conventions
-
-Conventions are discussed and agreed on: coding convention (programming style), variable names, random parameters (`random_state` for data splits and models), internal JupyterLab notebooks' structure, Git's repository folder structure.\
-Early establishment of project's conventions is crucial, since:
-
-- allows for unbiased models performance's metrics comparison
-- increases code / JupyterLab's notebooks readability
-- in the later project's phases: prevents time overhead required for cleanups (code, repository)
-
-### 3. Models
+### 1. Models
 
 KMeans Clustering Model with 5 Clusters
 Overview
@@ -74,7 +65,7 @@ Cluster Analysis: The characteristics of each cluster were analyzed to understan
 
 ![Description](/Images/elbow.png)
 
-### Choosing the Optimal Number of Clusters (k=5)
+### 2. Choosing the Optimal Number of Clusters (k=5)
 
 The decision to use 5 clusters for the KMeans model was based on an in-depth analysis of the silhouette scores and the distribution of data points among clusters.
 
@@ -90,7 +81,7 @@ Given these observations, it was concluded that increasing the number of cluster
 
 ## Model Interpretation
 
-### Summary of Cluster Names:
+### 3. Summary of Cluster Names:
 
 Cluster 0: " High Spenders" -->
 Description: High balances with frequent and substantial purchases. Significant one-off purchases, high credit limits, and high payment amounts. Moderate likelihood of full payments.
@@ -117,7 +108,7 @@ Description: Low activity across the board. Low balances, purchases, and credit 
 
   ![Description](/Images/pca_cluster.png)
 
-## Conclusion:
+## 4. Conclusion:
 
 In conclusion, based on analysis, Group 4, consisting of 25 individuals categorized as "Premium Customers," should receive improved conditions. These customers demonstrate a high frequency of purchases and consistently meet their payment obligations. Therefore, offering enhanced terms and conditions tailored to their spending habits could further incentivize their loyalty and satisfaction.
 
