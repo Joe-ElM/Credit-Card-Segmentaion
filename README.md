@@ -120,11 +120,6 @@ Description: Low activity across the board. Low balances, purchases, and credit 
 
 In conclusion, based on analysis, Group 4, consisting of 25 individuals categorized as "Premium Customers," should receive improved conditions. These customers demonstrate a high frequency of purchases and consistently meet their payment obligations. Therefore, offering enhanced terms and conditions tailored to their spending habits could further incentivize their loyalty and satisfaction.
 
-## Project highlights
-
-- shared files for functions and global settings allowing for streamlined editing of global parameters (i.e. `random_state`), as well as uniform / consistent visualization's style throught Jupyter Notebooks
-- main pipeline with external model-definitions .py file allowing for streamlined model switching and comparison
-
 ### Data Set: Credit Card Dataset for Clustering
 
 Obtained from: [kaggle.com](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)\
