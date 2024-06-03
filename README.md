@@ -110,7 +110,8 @@ Description: Low activity across the board. Low balances, purchases, and credit 
 
 - X-label: as value on x-axis increases --> 'more Purchases, Payments and OneOff Purchases -->
 - Y-label: as value on y-axis increases --> more prepayment and prepayment transactions -->
-  as value on y-axis decreases <-- purchases with fully paid-up payments
+-          as value on y-axis decreases <-- purchases with fully paid-up payments
+
   ![Description](/Images/pca_cluster.png)
 
 ## Project highlights
