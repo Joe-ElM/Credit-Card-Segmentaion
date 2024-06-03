@@ -64,11 +64,12 @@ Cluster Visualization: Although PCA was not used in the KMeans algorithm itself,
 Results
 Cluster Names: Each cluster was given a descriptive name based on the observed customer behaviors:
 
-Cluster 0: High Spenders
-Cluster 1: Premium Customers
-Cluster 2: Moderate Spenders
-Cluster 3: Cash Advance Dependent
-Cluster 4: Occasional Spenders
+- Cluster 0: High Spenders
+- Cluster 1: Premium Customers
+- Cluster 2: Moderate Spenders
+- Cluster 3: Cash Advance Dependent
+- Cluster 4: Occasional Spenders
+
 Cluster Analysis: The characteristics of each cluster were analyzed to understand the spending and payment behaviors of customers. For instance, Premium Customers (Cluster 1) were identified as those who make a lot of purchases and pay their bills on time, while Cash Advance Dependent customers (Cluster 3) frequently rely on cash advances.
 
 ![Description](/Images/elbow.png)
