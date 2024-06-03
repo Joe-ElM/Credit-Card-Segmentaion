@@ -38,17 +38,17 @@ Data columns (total 11 columns):
 
 ---
 
-0 CUST_ID 8949 non-null category
-1 BALANCE 8949 non-null float64
-2 PURCHASES 8949 non-null float64
-3 PURCHASES_TRX 8949 non-null int64  
- 4 ONEOFF_PURCHASES 8949 non-null float64
-5 CASH_ADVANCE 8949 non-null float64
-6 CASH_ADVANCE_TRX 8949 non-null int64  
- 7 CREDIT_LIMIT 8949 non-null float64
-8 PAYMENTS 8949 non-null float64
-9 PRC_FULL_PAYMENT 8949 non-null float64
-10 TENURE 8949 non-null int64
+- 0 CUST_ID 8949 non-null category
+- 1 BALANCE 8949 non-null float64
+- 2 PURCHASES 8949 non-null float64
+- 3 PURCHASES_TRX 8949 non-null int64
+- 4 ONEOFF_PURCHASES 8949 non-null float64
+- 5 CASH_ADVANCE 8949 non-null float64
+- 6 CASH_ADVANCE_TRX 8949 non-null int64
+- 7 CREDIT_LIMIT 8949 non-null float64
+- 8 PAYMENTS 8949 non-null float64
+- 9 PRC_FULL_PAYMENT 8949 non-null float64
+- 10 TENURE 8949 non-null int64
 
 ## Scenario:
 
