@@ -64,23 +64,7 @@ Description: High balances with significant reliance on cash advances. Moderate 
 Cluster 4: "Occasional Spenders" -->
 Description: Low activity across the board. Low balances, purchases, and credit limits. They make some cash advances and have a high tendency to fully pay off their balances.
 
-### Retention Strategies
-
-Should address the observations listed in the Feature Importance point, prioritizing from top to bottom.\
-Obviously we cannot have a direct influence on some of the employee's attributes, like for instance: **`marital status`**, **`years they are professionally active`**.
-
-Couple of suggestions:
-
-- **`Overtime`**: lower whenever possible, if not: be transparent regarding the reasons of overtime, delegate some of the ownership to the employees. Potentially the problem could also be planning-related and have its source in the Production Dept. It would be worth to assess the situation further and potentially train the Production Dept. in order to increase their planning precission.
-- **`Marital Status`**: it's difficult to be addressed because it's not work-related
-- **`Job Involvement`** and **`Level of Job Satisfaction`**: keywords here would be: motivate and delegate ownership (appointing chapions of specific production cycles or features)
-- **`Business Travel`**: investigate and limit whenever possible, but inspect further if it's not correlated with employee's **`marital status`**
-- **`Role within the organization`**:
-<p align="center">
-<img src="/Images/attrition_JobRole.png" />
-</p>
-
-As per above chart we can observe that we have higher than average `Attrition` in the roles: **Human Resources**, **Laboratory Technician**, **Sale Representative**. We would recommend further assessment of those departments and coming up with specific retention strategies per roles / dept.
+![Description](/Images/Clusters.png)
 
 ## Project highlights
 
@@ -88,15 +72,6 @@ As per above chart we can observe that we have higher than average `Attrition` i
 - main pipeline with external model-definitions .py file allowing for streamlined model switching and comparison
 - advanced confussion matrix with meaningful color-coding with custom color maps additionally accompanying for color-blindness
 - bulk-generation of data visualizations streamlining the process of EDA
-
-## Repository description
-
-- how to install
-- files description
-
-## Disclaimer
-
-This project was done in the period of 2 weeks as a follow-up to the [StackFuel GmbH](https://stackfuel.com/en/) courses: Data Analytics Certification and Data Science Certification.
 
 ### Data Set: HR Analytics Dataset
 
