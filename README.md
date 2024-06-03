@@ -45,6 +45,43 @@ Early establishment of project's conventions is crucial, since:
 
 ### 3. Models
 
+KMeans Clustering Model with 5 Clusters
+Overview
+The project utilizes the KMeans clustering algorithm to categorize credit card customers into distinct groups based on their spending behavior and payment patterns. This unsupervised learning technique is essential for identifying customer segments that can be targeted with tailored credit card conditions.
+
+Methodology
+Data Preparation
+Standardization: The dataset is standardized to ensure that each feature contributes equally to the clustering process. This is done using the StandardScaler from scikit-learn.
+KMeans Clustering
+Number of Clusters: After evaluating different cluster counts using the silhouette method, a model with 5 clusters was selected.
+Initialization: The KMeans algorithm is initialized with n_clusters=5 and n_init=50 to ensure robust clustering results.
+Model Fitting: The model is trained on the standardized dataset to identify clusters of customers with similar behaviors.
+Evaluation
+Silhouette Scores: The silhouette scores for different numbers of clusters were examined. The structure of the silhouette values indicated that 5 clusters provided a good balance between cluster cohesion and separation.
+Cluster Visualization: Although PCA was not used in the KMeans algorithm itself, it was applied for visualization purposes to project the high-dimensional data into a 2D space. The clusters were visualized using a scatter plot, with each cluster represented by a distinct color from a custom palette.
+Results
+Cluster Names: Each cluster was given a descriptive name based on the observed customer behaviors:
+
+Cluster 0: High Spenders
+Cluster 1: Premium Customers
+Cluster 2: Moderate Spenders
+Cluster 3: Cash Advance Dependent
+Cluster 4: Occasional Spenders
+Cluster Analysis: The characteristics of each cluster were analyzed to understand the spending and payment behaviors of customers. For instance, Premium Customers (Cluster 1) were identified as those who make a lot of purchases and pay their bills on time, while Cash Advance Dependent customers (Cluster 3) frequently rely on cash advances.
+
+### Choosing the Optimal Number of Clusters (k=5)
+
+The decision to use 5 clusters for the KMeans model was based on an in-depth analysis of the silhouette scores and the distribution of data points among clusters.
+
+Analysis of Silhouette Scores
+Silhouette scores provide a metric for evaluating the quality of clusters by measuring how similar each point is to its own cluster compared to other clusters. Through this analysis, it was observed that:
+
+Inter-cluster Proximity: There were two clusters with several values that were notably close to points in other clusters. This indicated that increasing the number of clusters might not significantly improve the separation between these clusters.
+Large Positive Cluster: A distinct, large cluster of purely positive values was identified. This cluster remained consistent across different values of k, suggesting a natural grouping of these data points.
+Consistency in Silhouette Values: The silhouette values showed minimal structural change when varying the number of clusters. This consistency implies that adding more clusters would not significantly enhance the overall cluster quality.
+Given these observations, it was concluded that increasing the number of clusters beyond 5 would not yield better-defined groups. Therefore, the model was finalized with 5 clusters, which provided a balanced and interpretable segmentation of the credit card customers. This choice ensures that the clustering solution is both meaningful and practical for developing targeted credit card conditions.
+![Description](/Images/silhoutte scores and PCA k 5.png)
+
 ## Model Interpretation
 
 ### Summary of Cluster Names:
