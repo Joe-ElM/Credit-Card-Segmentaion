@@ -69,6 +69,8 @@ Cluster 3: Cash Advance Dependent
 Cluster 4: Occasional Spenders
 Cluster Analysis: The characteristics of each cluster were analyzed to understand the spending and payment behaviors of customers. For instance, Premium Customers (Cluster 1) were identified as those who make a lot of purchases and pay their bills on time, while Cash Advance Dependent customers (Cluster 3) frequently rely on cash advances.
 
+![Description](/Images/elbow.png)
+
 ### Choosing the Optimal Number of Clusters (k=5)
 
 The decision to use 5 clusters for the KMeans model was based on an in-depth analysis of the silhouette scores and the distribution of data points among clusters.
@@ -80,7 +82,8 @@ Inter-cluster Proximity: There were two clusters with several values that were n
 Large Positive Cluster: A distinct, large cluster of purely positive values was identified. This cluster remained consistent across different values of k, suggesting a natural grouping of these data points.
 Consistency in Silhouette Values: The silhouette values showed minimal structural change when varying the number of clusters. This consistency implies that adding more clusters would not significantly enhance the overall cluster quality.
 Given these observations, it was concluded that increasing the number of clusters beyond 5 would not yield better-defined groups. Therefore, the model was finalized with 5 clusters, which provided a balanced and interpretable segmentation of the credit card customers. This choice ensures that the clustering solution is both meaningful and practical for developing targeted credit card conditions.
-![Description](/Images/silhoutte scores and PCA k 5.png)
+
+![Description](/Images/silhoutte_scores_and_PCA_k_5.png)
 
 ## Model Interpretation
 
