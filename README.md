@@ -1,5 +1,7 @@
 # Credit Card Segmentaion utilizing Unsupervised Learning
 
+![Description](/Images/bg.png)
+
 Focusing on clustering. the process entails categorizing data points into distinct groups. Unlike supervised learning, where the groups are predetermined, clustering operates on an **unsupervised learning**. The objective of this project is to segment credit card customers into various groups and derive recommendations tailored to each group.
 
 - Usage of the k-Means algorithm to split data into clusters
