@@ -30,6 +30,26 @@ _data dictionary_
 | 9             | `PRC_FULL_PAYMENT` | numeric (`float`)   | percentage of fully paid-up payments            |
 | 10            | `TENURE`           | numeric (`int`)     | Duration of possession of the credit card       |
 
+The DataFrame has no NaN values
+RangeIndex: 8949 entries, 0 to 8948
+Data columns (total 11 columns):
+
+# Column Non-Null Count Dtype
+
+---
+
+0 CUST_ID 8949 non-null category
+1 BALANCE 8949 non-null float64
+2 PURCHASES 8949 non-null float64
+3 PURCHASES_TRX 8949 non-null int64  
+ 4 ONEOFF_PURCHASES 8949 non-null float64
+5 CASH_ADVANCE 8949 non-null float64
+6 CASH_ADVANCE_TRX 8949 non-null int64  
+ 7 CREDIT_LIMIT 8949 non-null float64
+8 PAYMENTS 8949 non-null float64
+9 PRC_FULL_PAYMENT 8949 non-null float64
+10 TENURE 8949 non-null int64
+
 ## Scenario:
 
 A bank wants to refine the credit card terms and conditions for its customers. The bank aims to gain a deeper understanding of its credit card clients to offer tailored conditions. While data on its credit card holders is available, the specific customer segments remain undiscovered. The task at hand is to explore whether distinct customer groups exist within the credit card base and, if so, recommend which groups should receive improved terms. By identifying these segments, targeted terms and conditions can be proposed that cater to the diverse needs of "good" credit card customers, enhancing their satisfaction and the bank's competitive edge
