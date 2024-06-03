@@ -106,14 +106,18 @@ Description: Low activity across the board. Low balances, purchases, and credit 
 
 ![Description](/Images/Clusters.png)
 
+## 2D PCA scatter Plot of the features
+
+- X-label: 'more Purchases, Payments and OneOff Purchases --> '
+- Y-label: '<-- purchases with fully paid-up payments more prepayment and prepayment transactions -->'
+  ![Description](/Images/pca_cluster.png)
+
 ## Project highlights
 
 - shared files for functions and global settings allowing for streamlined editing of global parameters (i.e. `random_state`), as well as uniform / consistent visualization's style throught Jupyter Notebooks
 - main pipeline with external model-definitions .py file allowing for streamlined model switching and comparison
-- advanced confussion matrix with meaningful color-coding with custom color maps additionally accompanying for color-blindness
-- bulk-generation of data visualizations streamlining the process of EDA
 
-### Data Set: HR Analytics Dataset
+### Data Set: Credit Card Dataset for Clustering
 
 Obtained from: [kaggle.com](https://www.kaggle.com/datasets/arjunbhasin2013/ccdata)\
 License: [CC0 1.0 Universal](https://creativecommons.org/publicdomain/zero/1.0/)
